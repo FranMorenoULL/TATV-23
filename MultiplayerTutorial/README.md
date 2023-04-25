@@ -1,0 +1,3 @@
+# Multijugador en red: Actividad 1
+
+Implementa la explosión del impacto del proyectil. Esta explosión debe ejecutarse en cada cliente (no en el servidor), es decir, cuando un proyectil impacta debe activarse una explosión visible no solo en el cliente que controla al pawn que disparó, sino en todos los clientes. El spawn del sistema de partículas no se hará en el servidor sino en cada cliente.  Para realizar este efecto tendrás que emplear un evento configurado como Multicast. Los eventos multicast deben ser llamados desde el servidor y  se activarán en todas las réplicas del actor desde donde se llamó.
